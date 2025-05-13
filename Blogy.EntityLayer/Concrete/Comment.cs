@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Blogy.EntityLayer.Concrete
 {
-    public class Category
+    public class Comment
     {
-        public int CategoryID { get; set; }
-        public string? CategoryName { get; set; }
+        public int CommentID { get; set; }
+        public string Content { get; set; }
     }
 }

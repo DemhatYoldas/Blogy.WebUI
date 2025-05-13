@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Blogy.EntityLayer.Concrete
 {
-    public class Category
+    public class Tag
     {
-        public int CategoryID { get; set; }
-        public string? CategoryName { get; set; }
+        public int TagID { get; set; }
+        public string TagTitle { get; set; }
     }
 }
+ 
