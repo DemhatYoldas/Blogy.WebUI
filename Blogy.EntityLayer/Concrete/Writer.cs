@@ -12,5 +12,6 @@ namespace Blogy.EntityLayer.Concrete
         public string Name { get; set; }
         public string Description { get; set; }
         public string ImageURl { get; set; }
+        public List<Article> Articles { get; set; }
     }
 }
